@@ -12,7 +12,7 @@
 			<a href = "https://docs.google.com/forms/d/e/1FAIpQLSd1pqZuWPDzFYQOTI8DKf_U1VNVqHLvEifAxkDql0b0pGvG7Q/viewform">MAILING</a>
 		</div>
     
-    
+		<p style="height:15%;top:0;"></p>
   <button class="accordion">General Body Meeting 2/27/20</button>
 <div class="panel">
   <p>This is our big general body meeting! Sai, Please fill in more here I don't know what to say. Something about location and timing. (Also give me the flyer and I can put it here)</p>
@@ -23,4 +23,21 @@
   <p>It will be located in the MIX at 6:30PM. We will be discussing the build specs and putting people into teams for the construction of the Z80 gameboy project!</p>
 </div>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+		
 </HTML>
