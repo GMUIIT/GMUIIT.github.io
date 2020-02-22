@@ -23,4 +23,21 @@
   <p>It will be located in the MIX at 6:30PM. We will be discussing the build specs and putting people into teams for the construction of the Z80 gameboy project!</p>
 </div>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
 </HTML>
