@@ -14,13 +14,15 @@
   height:10%;
 }
 
-.nav a
+.navbar a
 {
   padding:25px;
   color:#ffcc33;
+  font-size:100%;
+  text-decoration:none;
   
 }
-.nav a:hover
+.navbar a:hover
 {
   background:#006633;
   
