@@ -3,3 +3,38 @@
   background-color:#212121;
   
 }
+
+.navbar
+{
+  background-color: #006633;
+  overflow: hidden;
+  top:0;
+  position:fixed;
+  width:100%;
+}
+
+.nav a
+{
+  padding:25px;
+  color:#ffcc33;
+  
+}
+.nav a:hover
+{
+  background:#006633;
+  
+}
+
+.Titl
+{
+  color:#ffcc33;
+  font-size:50px;
+  font-family:DejaVu Sans Mono, monospace;
+}
+
+.boxy
+{
+  border-radius:10%;
+  color:#ffcc33;
+  margin:left;
+}
