@@ -31,10 +31,9 @@
 .Titl
 {
   color:#ffcc33;
-  font-size:50%;
+  font-size:35px;
   padding:5%;
   left:50%;
-  font-family:DejaVu Sans Mono, monospace;
   display:inLine;
 }
 
@@ -65,7 +64,7 @@
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0px 18px;
   color:#ffcc33;
   font-size:20px;
   display: none;
